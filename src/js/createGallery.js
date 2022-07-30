@@ -9,10 +9,10 @@ function createGallery(images) {
                     <div class="gallery__item">
                         <img class="gallery__img" src="${webformatURL}" alt="${tags}" loading="lazy" />
                         <div class="gallery__info">
-                            <p class="info-item"><b>Likes</b>${likes}</p>
-                            <p class="info-item"><b>Views</b>${views}</p>
-                            <p class="info-item"><b>Comments</b>${comments}</p>
-                            <p class="info-item"><b>Downloads</b>${downloads}</p>
+                            <p class="gallery__info--item"><b>Likes</b>${likes}</p>
+                            <p class="gallery__info--item"><b>Views</b>${views}</p>
+                            <p class="gallery__info--item"><b>Comments</b>${comments}</p>
+                            <p class="gallery__info--item"><b>Downloads</b>${downloads}</p>
                         </div>
                     </div>
                 </a>`;

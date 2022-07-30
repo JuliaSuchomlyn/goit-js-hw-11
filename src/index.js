@@ -44,7 +44,10 @@ function onSearchButtonForm(e) {
                 loadMoreButton.classList.remove('visualy-hidden');
             }
     })
-    .catch(error => console.log(error));
+        .catch(error => console.log(error))
+        .finally(() => {
+      searchForm.reset();
+    });
 }
 
 
